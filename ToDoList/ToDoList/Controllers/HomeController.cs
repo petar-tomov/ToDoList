@@ -6,9 +6,11 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using ToDoList.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ToDoList.Controllers
 {
+    [Authorize]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
