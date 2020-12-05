@@ -11,7 +11,11 @@ namespace ToDoList.Areas.Identity.Data
     public class ToDoListUser : IdentityUser
     {
         [PersonalData]
-        [Column(TypeName = "nvarchar(25)")]
-        public string Password { get; set; }
+        [Column(TypeName = "nvarchar(100)")]
+        public string FirstName { get; set; }
+
+        [PersonalData]
+        [Column(TypeName = "nvarchar(100)")]
+        public string LastName { get; set; }
     }
 }

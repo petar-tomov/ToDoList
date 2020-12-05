@@ -20,7 +20,7 @@ namespace ToDoList.Areas.Identity
                     options.UseSqlServer(
                         context.Configuration.GetConnectionString("ToDoListContextConnection")));
 
-                services.AddDefaultIdentity<ToDoListUser>(options => options.SignIn.RequireConfirmedAccount = true)
+                services.AddDefaultIdentity<ToDoListUser>(options => options.SignIn.RequireConfirmedAccount = false)
                     .AddEntityFrameworkStores<ToDoListContext>();
             });
         }

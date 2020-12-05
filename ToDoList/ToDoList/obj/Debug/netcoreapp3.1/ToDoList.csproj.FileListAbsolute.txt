@@ -165,3 +165,4 @@ C:\Users\PC\source\repos\ToDoList\ToDoList\ToDoList\obj\Debug\netcoreapp3.1\Razo
 C:\Users\PC\source\repos\ToDoList\ToDoList\ToDoList\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
 C:\Users\PC\source\repos\ToDoList\ToDoList\ToDoList\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
 C:\Users\PC\source\repos\ToDoList\ToDoList\ToDoList\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\PC\source\repos\ToDoList\ToDoList\ToDoList\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\AuthLayout.cshtml.g.cs

@@ -47,6 +47,7 @@ namespace ToDoList.Areas.Identity.Pages.Account
         public class InputModel
         {
             [Required]
+            [DataType(DataType.Text)]
             [Display(Name = "Username")]
             public string Username { get; set; }
 
@@ -74,7 +75,7 @@ namespace ToDoList.Areas.Identity.Pages.Account
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
             if (ModelState.IsValid)
             {
-                var user = new ToDoListUser { UserName = Input.Username, Email = Input.Username };
+                var user = new ToDoListUser { UserName = Input.Username};
                 var result = await _userManager.CreateAsync(user, Input.Password);
                 if (result.Succeeded)
                 {
@@ -100,7 +101,7 @@ namespace ToDoList.Areas.Identity.Pages.Account
                         await _signInManager.SignInAsync(user, isPersistent: false);
                         return LocalRedirect(returnUrl);
                     }*/
-                    return LocalRedirect(returnUrl);
+                    return RedirectToPage("RegisterConfirmation", new { Username = Input.Username, returnUrl = returnUrl });
                 }
                 foreach (var error in result.Errors)
                 {
