@@ -15,14 +15,14 @@ namespace ToDoList.Areas.Identity
     {
         public void Configure(IWebHostBuilder builder)
         {
-            builder.ConfigureServices((context, services) => {
+           /* builder.ConfigureServices((context, services) => {
                 services.AddDbContext<ToDoListContext>(options =>
                     options.UseSqlServer(
                         context.Configuration.GetConnectionString("ToDoListContextConnection")));
 
                 services.AddDefaultIdentity<ToDoListUser>(options => options.SignIn.RequireConfirmedAccount = false)
                     .AddEntityFrameworkStores<ToDoListContext>();
-            });
+            });*/
         }
     }
 }

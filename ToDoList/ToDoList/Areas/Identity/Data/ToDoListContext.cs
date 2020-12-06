@@ -11,10 +11,11 @@ namespace LoginAuth.Data
 {
     public class ToDoListContext : IdentityDbContext<ToDoListUser>
     {
-        public ToDoListContext(DbContextOptions<ToDoListContext> options)
-            : base(options)
+        public ToDoListContext(DbContextOptions<ToDoListContext> options) : base(options)
         {
         }
+
+        public DbSet<TodoList> ToDoList { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

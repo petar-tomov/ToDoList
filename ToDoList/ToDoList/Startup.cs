@@ -1,6 +1,8 @@
+using LoginAuth.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -8,6 +10,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ToDoList.Areas.Identity.Data;
 
 namespace ToDoList
 {
@@ -25,6 +28,12 @@ namespace ToDoList
         {
             services.AddControllersWithViews();
             services.AddRazorPages();
+            services.AddDbContext<ToDoListContext>(options => 
+                options.UseSqlServer(
+                    Configuration.GetConnectionString("ToDoListContextConnection")));
+            services.AddDefaultIdentity<ToDoListUser>(options => options.SignIn.RequireConfirmedAccount = false)
+                    .AddEntityFrameworkStores<ToDoListContext>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

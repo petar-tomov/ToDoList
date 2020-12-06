@@ -1,9 +1,3 @@
-C:\Users\PC\source\repos\ToDoList\ToDoList\ToDoList\obj\Debug\netcoreapp3.1\ToDoList.AssemblyInfoInputs.cache
-C:\Users\PC\source\repos\ToDoList\ToDoList\ToDoList\obj\Debug\netcoreapp3.1\ToDoList.AssemblyInfo.cs
-C:\Users\PC\source\repos\ToDoList\ToDoList\ToDoList\obj\Debug\netcoreapp3.1\ToDoList.csproj.CoreCompileInputs.cache
-C:\Users\PC\source\repos\ToDoList\ToDoList\ToDoList\obj\Debug\netcoreapp3.1\ToDoList.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\PC\source\repos\ToDoList\ToDoList\ToDoList\obj\Debug\netcoreapp3.1\ToDoList.RazorAssemblyInfo.cache
-C:\Users\PC\source\repos\ToDoList\ToDoList\ToDoList\obj\Debug\netcoreapp3.1\ToDoList.RazorAssemblyInfo.cs
 C:\Users\PC\source\repos\ToDoList\ToDoList\ToDoList\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\PC\source\repos\ToDoList\ToDoList\ToDoList\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\PC\source\repos\ToDoList\ToDoList\ToDoList\bin\Debug\netcoreapp3.1\ToDoList.StaticWebAssets.xml
@@ -137,7 +131,13 @@ C:\Users\PC\source\repos\ToDoList\ToDoList\ToDoList\bin\Debug\netcoreapp3.1\runt
 C:\Users\PC\source\repos\ToDoList\ToDoList\ToDoList\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\PC\source\repos\ToDoList\ToDoList\ToDoList\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\PC\source\repos\ToDoList\ToDoList\ToDoList\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\PC\source\repos\ToDoList\ToDoList\ToDoList\obj\Debug\netcoreapp3.1\ToDoList.AssemblyInfoInputs.cache
+C:\Users\PC\source\repos\ToDoList\ToDoList\ToDoList\obj\Debug\netcoreapp3.1\ToDoList.AssemblyInfo.cs
+C:\Users\PC\source\repos\ToDoList\ToDoList\ToDoList\obj\Debug\netcoreapp3.1\ToDoList.csproj.CoreCompileInputs.cache
 C:\Users\PC\source\repos\ToDoList\ToDoList\ToDoList\obj\Debug\netcoreapp3.1\ToDoList.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\PC\source\repos\ToDoList\ToDoList\ToDoList\obj\Debug\netcoreapp3.1\ToDoList.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\PC\source\repos\ToDoList\ToDoList\ToDoList\obj\Debug\netcoreapp3.1\ToDoList.RazorAssemblyInfo.cache
+C:\Users\PC\source\repos\ToDoList\ToDoList\ToDoList\obj\Debug\netcoreapp3.1\ToDoList.RazorAssemblyInfo.cs
 C:\Users\PC\source\repos\ToDoList\ToDoList\ToDoList\obj\Debug\netcoreapp3.1\staticwebassets\ToDoList.StaticWebAssets.Manifest.cache
 C:\Users\PC\source\repos\ToDoList\ToDoList\ToDoList\obj\Debug\netcoreapp3.1\staticwebassets\ToDoList.StaticWebAssets.xml
 C:\Users\PC\source\repos\ToDoList\ToDoList\ToDoList\obj\Debug\netcoreapp3.1\scopedcss\bundle\ToDoList.styles.css
@@ -167,3 +167,5 @@ C:\Users\PC\source\repos\ToDoList\ToDoList\ToDoList\obj\Debug\netcoreapp3.1\ToDo
 C:\Users\PC\source\repos\ToDoList\ToDoList\ToDoList\obj\Debug\netcoreapp3.1\ToDoList.pdb
 C:\Users\PC\source\repos\ToDoList\ToDoList\ToDoList\obj\Debug\netcoreapp3.1\ToDoList.genruntimeconfig.cache
 C:\Users\PC\source\repos\ToDoList\ToDoList\ToDoList\obj\Debug\netcoreapp3.1\ToDoList.csprojAssemblyReference.cache
+C:\Users\PC\source\repos\ToDoList\ToDoList\ToDoList\obj\Debug\netcoreapp3.1\Razor\Views\Home\Create.cshtml.g.cs
+C:\Users\PC\source\repos\ToDoList\ToDoList\ToDoList\obj\Debug\netcoreapp3.1\Razor\Views\Home\Edit.cshtml.g.cs
