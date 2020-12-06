@@ -10,6 +10,7 @@ using Microsoft.AspNetCore.Authorization;
 using ToDoList.Areas.Identity.Data;
 using LoginAuth.Data;
 using Microsoft.EntityFrameworkCore;
+using System.Security.Claims;
 
 namespace ToDoList.Controllers
 {
@@ -28,9 +29,13 @@ namespace ToDoList.Controllers
         // GET /
         public async Task<ActionResult> Index()
         {
-            IQueryable<TodoList> items = from i in context.ToDoList orderby i.Id select i;
 
-            List<TodoList> todoList = await items.ToListAsync();
+            var ctx = await Task.Run(() => context.ToDoList.Where
+            (x => x.User.Id.Equals(User.FindFirstValue(ClaimTypes.NameIdentifier))));
+
+            //IQueryable<TodoList> items = from i in context.ToDoList orderby i.Id select i;
+
+            List<TodoList> todoList = await ctx.ToListAsync();
 
             return View(todoList);
         }

@@ -24,7 +24,6 @@ namespace ToDoList.Areas.Identity.Data
         [DataType(DataType.Date)]
         public DateTime Date { get; set; }
 
-        [StringLength(2, MinimumLength = 1)]
         public int Hour { get; set; }
     }
 }

@@ -166,6 +166,5 @@ C:\Users\PC\source\repos\ToDoList\ToDoList\ToDoList\obj\Debug\netcoreapp3.1\ToDo
 C:\Users\PC\source\repos\ToDoList\ToDoList\ToDoList\obj\Debug\netcoreapp3.1\ToDoList.dll
 C:\Users\PC\source\repos\ToDoList\ToDoList\ToDoList\obj\Debug\netcoreapp3.1\ToDoList.pdb
 C:\Users\PC\source\repos\ToDoList\ToDoList\ToDoList\obj\Debug\netcoreapp3.1\ToDoList.genruntimeconfig.cache
-C:\Users\PC\source\repos\ToDoList\ToDoList\ToDoList\obj\Debug\netcoreapp3.1\ToDoList.csprojAssemblyReference.cache
 C:\Users\PC\source\repos\ToDoList\ToDoList\ToDoList\obj\Debug\netcoreapp3.1\Razor\Views\Home\Create.cshtml.g.cs
 C:\Users\PC\source\repos\ToDoList\ToDoList\ToDoList\obj\Debug\netcoreapp3.1\Razor\Views\Home\Edit.cshtml.g.cs
