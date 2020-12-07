@@ -47,8 +47,10 @@ namespace ToDoList.Controllers
         [HttpPost]
         public async Task<ActionResult> Create(TodoList item)
         {
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier).Value;
             if (ModelState.IsValid)
             {
+                item.UserId = userId;
                 context.Add(item);
                 await context.SaveChangesAsync();
 
@@ -75,8 +77,10 @@ namespace ToDoList.Controllers
         [HttpPost]
         public async Task<ActionResult> Edit(TodoList item)
         {
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier).Value;
             if (ModelState.IsValid)
             {
+                item.UserId = userId;
                 context.Update(item);
                 await context.SaveChangesAsync();
 

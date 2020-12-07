@@ -239,16 +239,12 @@ namespace ToDoList.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<int>("Hour")
-                        .HasColumnType("int")
-                        .HasMaxLength(2);
+                        .HasColumnType("int");
 
                     b.Property<string>("Title")
                         .IsRequired()
                         .HasColumnType("nvarchar(200)")
                         .HasMaxLength(200);
-
-                    b.Property<int>("ToDoListUserId")
-                        .HasColumnType("int");
 
                     b.Property<string>("UserId")
                         .HasColumnType("nvarchar(450)");
@@ -257,7 +253,7 @@ namespace ToDoList.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("TodoList");
+                    b.ToTable("ToDoList");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

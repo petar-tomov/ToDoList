@@ -11,7 +11,7 @@ namespace ToDoList.Areas.Identity.Data
     {
         public int Id { get; set; }
 
-        public int ToDoListUserId { get; set; }
+        public string UserId { get; set; }
         public virtual ToDoListUser User { get; set; }
 
         [StringLength(200, MinimumLength = 3)]
