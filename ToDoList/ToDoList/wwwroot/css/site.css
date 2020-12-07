@@ -94,3 +94,8 @@ div.login-logout-tab a.nav-link {
     height: 420px;
     width: 420px;
 }
+
+.marginless {
+    margin-top: 0px;
+    color: #fff !important;
+}
